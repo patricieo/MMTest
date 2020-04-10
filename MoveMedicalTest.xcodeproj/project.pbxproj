@@ -93,9 +93,9 @@
 		F406D09924411D110070BD88 = {
 			isa = PBXGroup;
 			children = (
-				F406D0A424411D110070BD88 /* TestSingleVDeleteme */,
-				F406D0BB24411D1B0070BD88 /* TestSingleVDeletemeTests */,
-				F406D0C624411D1B0070BD88 /* TestSingleVDeletemeUITests */,
+				F406D0A424411D110070BD88 /* MoveMedicalTestFiles */,
+				F406D0BB24411D1B0070BD88 /* MoveMedicalTests */,
+				F406D0C624411D1B0070BD88 /* MoveMedicalUITests */,
 				F406D0A324411D110070BD88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F406D0A424411D110070BD88 /* TestSingleVDeleteme */ = {
+		F406D0A424411D110070BD88 /* MoveMedicalTestFiles */ = {
 			isa = PBXGroup;
 			children = (
 				F406D0A524411D110070BD88 /* AppDelegate.swift */,
@@ -128,25 +128,25 @@
 				F406D0B024411D1B0070BD88 /* LaunchScreen.storyboard */,
 				F406D0B324411D1B0070BD88 /* Info.plist */,
 			);
-			path = TestSingleVDeleteme;
+			path = MoveMedicalTestFiles;
 			sourceTree = "<group>";
 		};
-		F406D0BB24411D1B0070BD88 /* TestSingleVDeletemeTests */ = {
+		F406D0BB24411D1B0070BD88 /* MoveMedicalTests */ = {
 			isa = PBXGroup;
 			children = (
 				F406D0BC24411D1B0070BD88 /* TestSingleVDeletemeTests.swift */,
 				F406D0BE24411D1B0070BD88 /* Info.plist */,
 			);
-			path = TestSingleVDeletemeTests;
+			path = MoveMedicalTests;
 			sourceTree = "<group>";
 		};
-		F406D0C624411D1B0070BD88 /* TestSingleVDeletemeUITests */ = {
+		F406D0C624411D1B0070BD88 /* MoveMedicalUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F406D0C724411D1C0070BD88 /* TestSingleVDeletemeUITests.swift */,
 				F406D0C924411D1C0070BD88 /* Info.plist */,
 			);
-			path = TestSingleVDeletemeUITests;
+			path = MoveMedicalUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
