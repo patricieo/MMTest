@@ -22,6 +22,7 @@
 		F406D0E3244126600070BD88 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0E1244126600070BD88 /* MasterTableViewController.swift */; };
 		F406D0E7244129740070BD88 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0E5244129740070BD88 /* MasterTableViewCell.swift */; };
 		F406D0E8244129740070BD88 /* MasterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F406D0E6244129740070BD88 /* MasterTableViewCell.xib */; };
+		F49C5FBE24413B670009EAD7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F49C5FBD24413B670009EAD7 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F406D0E1244126600070BD88 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 		F406D0E5244129740070BD88 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
 		F406D0E6244129740070BD88 /* MasterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterTableViewCell.xib; sourceTree = "<group>"; };
+		F49C5FBD24413B670009EAD7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		F406D09924411D110070BD88 = {
 			isa = PBXGroup;
 			children = (
+				F49C5FBD24413B670009EAD7 /* Default-568h@2x.png */,
 				F406D0A424411D110070BD88 /* MoveMedicalTestFiles */,
 				F406D0BB24411D1B0070BD88 /* MoveMedicalTests */,
 				F406D0C624411D1B0070BD88 /* MoveMedicalUITests */,
@@ -256,6 +259,7 @@
 				F406D0B224411D1B0070BD88 /* LaunchScreen.storyboard in Resources */,
 				F406D0AF24411D1B0070BD88 /* Assets.xcassets in Resources */,
 				F406D0AD24411D110070BD88 /* Main.storyboard in Resources */,
+				F49C5FBE24413B670009EAD7 /* Default-568h@2x.png in Resources */,
 				F406D0E8244129740070BD88 /* MasterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9ZP39WX4H;
-				INFOPLIST_FILE = TestSingleVDeleteme/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MoveMedicalTestFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9ZP39WX4H;
-				INFOPLIST_FILE = TestSingleVDeleteme/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MoveMedicalTestFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
