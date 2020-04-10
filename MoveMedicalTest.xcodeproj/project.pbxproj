@@ -15,6 +15,13 @@
 		F406D0B224411D1B0070BD88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F406D0B024411D1B0070BD88 /* LaunchScreen.storyboard */; };
 		F406D0BD24411D1B0070BD88 /* TestSingleVDeletemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0BC24411D1B0070BD88 /* TestSingleVDeletemeTests.swift */; };
 		F406D0C824411D1C0070BD88 /* TestSingleVDeletemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0C724411D1C0070BD88 /* TestSingleVDeletemeUITests.swift */; };
+		F406D0D824411EF40070BD88 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0D724411EF40070BD88 /* Books.swift */; };
+		F406D0DA24411F2C0070BD88 /* MasterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0D924411F2C0070BD88 /* MasterObject.swift */; };
+		F406D0DC244121900070BD88 /* Phones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0DB244121900070BD88 /* Phones.swift */; };
+		F406D0E0244121E10070BD88 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0DF244121E10070BD88 /* Cars.swift */; };
+		F406D0E3244126600070BD88 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0E1244126600070BD88 /* MasterTableViewController.swift */; };
+		F406D0E7244129740070BD88 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406D0E5244129740070BD88 /* MasterTableViewCell.swift */; };
+		F406D0E8244129740070BD88 /* MasterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F406D0E6244129740070BD88 /* MasterTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F406D0A224411D110070BD88 /* TestSingleVDeleteme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSingleVDeleteme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F406D0A224411D110070BD88 /* MoveMedicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveMedicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F406D0A524411D110070BD88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F406D0A724411D110070BD88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F406D0A924411D110070BD88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +50,19 @@
 		F406D0AE24411D1B0070BD88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F406D0B124411D1B0070BD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F406D0B324411D1B0070BD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F406D0B824411D1B0070BD88 /* TestSingleVDeletemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSingleVDeletemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F406D0B824411D1B0070BD88 /* MoveMedicalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveMedicalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F406D0BC24411D1B0070BD88 /* TestSingleVDeletemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSingleVDeletemeTests.swift; sourceTree = "<group>"; };
 		F406D0BE24411D1B0070BD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F406D0C324411D1B0070BD88 /* TestSingleVDeletemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSingleVDeletemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F406D0C324411D1B0070BD88 /* MoveMedicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveMedicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F406D0C724411D1C0070BD88 /* TestSingleVDeletemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSingleVDeletemeUITests.swift; sourceTree = "<group>"; };
 		F406D0C924411D1C0070BD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F406D0D724411EF40070BD88 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		F406D0D924411F2C0070BD88 /* MasterObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterObject.swift; sourceTree = "<group>"; };
+		F406D0DB244121900070BD88 /* Phones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phones.swift; sourceTree = "<group>"; };
+		F406D0DF244121E10070BD88 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		F406D0E1244126600070BD88 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		F406D0E5244129740070BD88 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
+		F406D0E6244129740070BD88 /* MasterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +103,9 @@
 		F406D0A324411D110070BD88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F406D0A224411D110070BD88 /* TestSingleVDeleteme.app */,
-				F406D0B824411D1B0070BD88 /* TestSingleVDeletemeTests.xctest */,
-				F406D0C324411D1B0070BD88 /* TestSingleVDeletemeUITests.xctest */,
+				F406D0A224411D110070BD88 /* MoveMedicalTest.app */,
+				F406D0B824411D1B0070BD88 /* MoveMedicalTestTests.xctest */,
+				F406D0C324411D1B0070BD88 /* MoveMedicalTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +116,13 @@
 				F406D0A524411D110070BD88 /* AppDelegate.swift */,
 				F406D0A724411D110070BD88 /* SceneDelegate.swift */,
 				F406D0A924411D110070BD88 /* ViewController.swift */,
+				F406D0E1244126600070BD88 /* MasterTableViewController.swift */,
+				F406D0E5244129740070BD88 /* MasterTableViewCell.swift */,
+				F406D0E6244129740070BD88 /* MasterTableViewCell.xib */,
+				F406D0D924411F2C0070BD88 /* MasterObject.swift */,
+				F406D0D724411EF40070BD88 /* Books.swift */,
+				F406D0DF244121E10070BD88 /* Cars.swift */,
+				F406D0DB244121900070BD88 /* Phones.swift */,
 				F406D0AB24411D110070BD88 /* Main.storyboard */,
 				F406D0AE24411D1B0070BD88 /* Assets.xcassets */,
 				F406D0B024411D1B0070BD88 /* LaunchScreen.storyboard */,
@@ -131,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F406D0A124411D110070BD88 /* TestSingleVDeleteme */ = {
+		F406D0A124411D110070BD88 /* MoveMedicalTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F406D0CC24411D1C0070BD88 /* Build configuration list for PBXNativeTarget "TestSingleVDeleteme" */;
+			buildConfigurationList = F406D0CC24411D1C0070BD88 /* Build configuration list for PBXNativeTarget "MoveMedicalTest" */;
 			buildPhases = (
 				F406D09E24411D110070BD88 /* Sources */,
 				F406D09F24411D110070BD88 /* Frameworks */,
@@ -143,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = TestSingleVDeleteme;
+			name = MoveMedicalTest;
 			productName = TestSingleVDeleteme;
-			productReference = F406D0A224411D110070BD88 /* TestSingleVDeleteme.app */;
+			productReference = F406D0A224411D110070BD88 /* MoveMedicalTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F406D0B724411D1B0070BD88 /* TestSingleVDeletemeTests */ = {
+		F406D0B724411D1B0070BD88 /* MoveMedicalTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F406D0CF24411D1C0070BD88 /* Build configuration list for PBXNativeTarget "TestSingleVDeletemeTests" */;
+			buildConfigurationList = F406D0CF24411D1C0070BD88 /* Build configuration list for PBXNativeTarget "MoveMedicalTestTests" */;
 			buildPhases = (
 				F406D0B424411D1B0070BD88 /* Sources */,
 				F406D0B524411D1B0070BD88 /* Frameworks */,
@@ -161,14 +182,14 @@
 			dependencies = (
 				F406D0BA24411D1B0070BD88 /* PBXTargetDependency */,
 			);
-			name = TestSingleVDeletemeTests;
+			name = MoveMedicalTestTests;
 			productName = TestSingleVDeletemeTests;
-			productReference = F406D0B824411D1B0070BD88 /* TestSingleVDeletemeTests.xctest */;
+			productReference = F406D0B824411D1B0070BD88 /* MoveMedicalTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F406D0C224411D1B0070BD88 /* TestSingleVDeletemeUITests */ = {
+		F406D0C224411D1B0070BD88 /* MoveMedicalTestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F406D0D224411D1C0070BD88 /* Build configuration list for PBXNativeTarget "TestSingleVDeletemeUITests" */;
+			buildConfigurationList = F406D0D224411D1C0070BD88 /* Build configuration list for PBXNativeTarget "MoveMedicalTestUITests" */;
 			buildPhases = (
 				F406D0BF24411D1B0070BD88 /* Sources */,
 				F406D0C024411D1B0070BD88 /* Frameworks */,
@@ -179,9 +200,9 @@
 			dependencies = (
 				F406D0C524411D1B0070BD88 /* PBXTargetDependency */,
 			);
-			name = TestSingleVDeletemeUITests;
+			name = MoveMedicalTestUITests;
 			productName = TestSingleVDeletemeUITests;
-			productReference = F406D0C324411D1B0070BD88 /* TestSingleVDeletemeUITests.xctest */;
+			productReference = F406D0C324411D1B0070BD88 /* MoveMedicalTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F406D09D24411D110070BD88 /* Build configuration list for PBXProject "TestSingleVDeleteme" */;
+			buildConfigurationList = F406D09D24411D110070BD88 /* Build configuration list for PBXProject "MoveMedicalTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +241,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F406D0A124411D110070BD88 /* TestSingleVDeleteme */,
-				F406D0B724411D1B0070BD88 /* TestSingleVDeletemeTests */,
-				F406D0C224411D1B0070BD88 /* TestSingleVDeletemeUITests */,
+				F406D0A124411D110070BD88 /* MoveMedicalTest */,
+				F406D0B724411D1B0070BD88 /* MoveMedicalTestTests */,
+				F406D0C224411D1B0070BD88 /* MoveMedicalTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +256,7 @@
 				F406D0B224411D1B0070BD88 /* LaunchScreen.storyboard in Resources */,
 				F406D0AF24411D1B0070BD88 /* Assets.xcassets in Resources */,
 				F406D0AD24411D110070BD88 /* Main.storyboard in Resources */,
+				F406D0E8244129740070BD88 /* MasterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F406D0DC244121900070BD88 /* Phones.swift in Sources */,
 				F406D0AA24411D110070BD88 /* ViewController.swift in Sources */,
 				F406D0A624411D110070BD88 /* AppDelegate.swift in Sources */,
 				F406D0A824411D110070BD88 /* SceneDelegate.swift in Sources */,
+				F406D0E7244129740070BD88 /* MasterTableViewCell.swift in Sources */,
+				F406D0DA24411F2C0070BD88 /* MasterObject.swift in Sources */,
+				F406D0E3244126600070BD88 /* MasterTableViewController.swift in Sources */,
+				F406D0D824411EF40070BD88 /* Books.swift in Sources */,
+				F406D0E0244121E10070BD88 /* Cars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +314,12 @@
 /* Begin PBXTargetDependency section */
 		F406D0BA24411D1B0070BD88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F406D0A124411D110070BD88 /* TestSingleVDeleteme */;
+			target = F406D0A124411D110070BD88 /* MoveMedicalTest */;
 			targetProxy = F406D0B924411D1B0070BD88 /* PBXContainerItemProxy */;
 		};
 		F406D0C524411D1B0070BD88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F406D0A124411D110070BD88 /* TestSingleVDeleteme */;
+			target = F406D0A124411D110070BD88 /* MoveMedicalTest */;
 			targetProxy = F406D0C424411D1B0070BD88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,8 +469,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.patrickodonoghue.TestSingleVDeleteme;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickodonoghue.MoveMedicalTest;
+				PRODUCT_NAME = MoveMedicalTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,8 +487,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.patrickodonoghue.TestSingleVDeleteme;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickodonoghue.MoveMedicalTest;
+				PRODUCT_NAME = MoveMedicalTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -484,7 +512,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSingleVDeleteme.app/TestSingleVDeleteme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveMedicalTest.app/MoveMedicalTest";
 			};
 			name = Debug;
 		};
@@ -506,7 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSingleVDeleteme.app/TestSingleVDeleteme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveMedicalTest.app/MoveMedicalTest";
 			};
 			name = Release;
 		};
@@ -553,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F406D09D24411D110070BD88 /* Build configuration list for PBXProject "TestSingleVDeleteme" */ = {
+		F406D09D24411D110070BD88 /* Build configuration list for PBXProject "MoveMedicalTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F406D0CA24411D1C0070BD88 /* Debug */,
@@ -562,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F406D0CC24411D1C0070BD88 /* Build configuration list for PBXNativeTarget "TestSingleVDeleteme" */ = {
+		F406D0CC24411D1C0070BD88 /* Build configuration list for PBXNativeTarget "MoveMedicalTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F406D0CD24411D1C0070BD88 /* Debug */,
@@ -571,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F406D0CF24411D1C0070BD88 /* Build configuration list for PBXNativeTarget "TestSingleVDeletemeTests" */ = {
+		F406D0CF24411D1C0070BD88 /* Build configuration list for PBXNativeTarget "MoveMedicalTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F406D0D024411D1C0070BD88 /* Debug */,
@@ -580,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F406D0D224411D1C0070BD88 /* Build configuration list for PBXNativeTarget "TestSingleVDeletemeUITests" */ = {
+		F406D0D224411D1C0070BD88 /* Build configuration list for PBXNativeTarget "MoveMedicalTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F406D0D324411D1C0070BD88 /* Debug */,
